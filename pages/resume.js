@@ -23,7 +23,7 @@ export default function Resume() {
       <Container>
         <LinkBox cursor="pointer">
           <LinkOverlay
-            href="https://drive.google.com/file/d/1X6uoGBerzO3gF1vQofPetfTDTgexYqAn/view"
+            href="https://drive.google.com/file/d/16gZIIiuvtzYHUR5fSc9ueFH2mVCeBfjh/view"
             target="_blank"
           >
             <Document file={file} onLoadSuccess={onDocumentLoadSuccess}>
