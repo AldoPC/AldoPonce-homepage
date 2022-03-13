@@ -1,0 +1,33 @@
+{
+  "name": "aldoponce-homepage",
+  "version": "1.0.0",
+  "description": "Aldo's homepage",
+  "scripts": {
+    "dev": "next dev -H 0.0.0.0",
+    "build": "next build",
+    "prettier": "prettier -write .",
+    "lint": "next lint"
+  },
+  "keywords": [],
+  "author": "Aldo Ponce",
+  "license": "MIT",
+  "dependencies": {
+    "@chakra-ui/icons": "^1.1.7",
+    "@chakra-ui/react": "^1.8.6",
+    "@emotion/react": "^11.8.1",
+    "@emotion/styled": "^11.8.1",
+    "file-loader": "^6.2.0",
+    "framer-motion": "^6.2.8",
+    "next": "^12.1.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-icons": "^4.3.1",
+    "react-pdf": "^5.7.1",
+    "three": "^0.138.3"
+  },
+  "devDependencies": {
+    "@types/react-pdf": "^5.0.9",
+    "eslint-config-next": "^12.1.0",
+    "prettier": "^2.5.1"
+  }
+}
