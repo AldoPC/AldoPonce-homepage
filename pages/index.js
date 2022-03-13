@@ -21,7 +21,7 @@ import { ExperienceBold } from '../components/experience'
 const Page = () => {
   return (
     <Layout>
-      <Container>
+      <Container maxW="container.lg">
         <Box
           borderRadius="lg"
           mb={6}

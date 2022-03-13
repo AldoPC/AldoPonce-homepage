@@ -7,7 +7,7 @@ import Layout from '../components/layouts/article'
 const Projects = () => {
   return (
       <Layout>
-    <Container>
+    <Container maxW="container.md">
       <Heading as="h3" fontSize={20} mb={4}>
         Projects
       </Heading>

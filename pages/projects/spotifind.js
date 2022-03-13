@@ -7,7 +7,7 @@ import Layout from '../../components/layouts/article'
 const Work = () => {
   return (
     <Layout title="Spotifind">
-      <Container>
+      <Container maxW="container.lg">
         <Title>Spotifind <Badge>2021</Badge></Title>
         <Paragraph>
             An iOS app that uses Spotify API to recommend music depending on the users likings and taste. Includes a search engine capable of using the camera for searching information, play music and manage playlists. Project developed for Mobile Devices Development @ ITESM CCM.
