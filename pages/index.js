@@ -21,7 +21,9 @@ import { ExperienceBold } from '../components/experience'
 const Page = () => {
   return (
     <Layout>
-      <Container maxW="container.lg">
+      <Container maxW="container.xl">
+        
+        <Box ml={["auto","auto", "auto","30%"]}>
         <Box
           borderRadius="lg"
           mb={6}
@@ -32,77 +34,14 @@ const Page = () => {
           Hi, I&apos;m Aldo Ponce. Currently studying for a bachelor's degree in
           Computer Science and Technology at Tecnológico de Monterrey CCM.
         </Box>
-        <Box display={{ md: 'flex' }}>
-          <Box flexGrow={1}>
-            <Heading as="h2" variant="page-title">
-              Aldo Ponce
-            </Heading>
-            <p>8th Semester Student</p>
-            <List>
-              <ListItem>
-                <Link href="https://github.com/AldoPC" target="_blank">
-                  <Button
-                    variant="ghost"
-                    colorScheme="teal"
-                    leftIcon={<IoLogoGithub />}
-                  >
-                    AldoPC
-                  </Button>
-                </Link>
-              </ListItem>
-              <ListItem>
-                <Link
-                  href="https://www.linkedin.com/in/aldopc/"
-                  target="_blank"
-                >
-                  <Button
-                    variant="ghost"
-                    colorScheme="teal"
-                    leftIcon={<IoLogoLinkedin />}
-                  >
-                    Aldo Ponce
-                  </Button>
-                </Link>
-              </ListItem>
-              <ListItem>
-                <Link href="mailto:aldoponcedelacruz@gmail.com" target="_blank">
-                  <Button
-                    variant="ghost"
-                    colorScheme="teal"
-                    leftIcon={<IoMail />}
-                  >
-                    aldoponcedelacruz@gmail.com
-                  </Button>
-                </Link>
-              </ListItem>
-            </List>
-          </Box>
-          <Box
-            flexShrink={0}
-            mt={{ base: 4, md: 0 }}
-            ml={{ md: 6 }}
-            align="center"
-          >
-            <Image
-              borderColor="whiteAlpha.800"
-              borderWidth={2}
-              borderStyle="solid"
-              maxWidth="200px"
-              display="inline-bock"
-              borderRadius="full"
-              src="/images/aldo.jpg"
-              alt="Profile Picture"
-            />
-          </Box>
-        </Box>
         <Section delay={0.1}>
-          <Heading as="h3" variant="section-title">
+          <Heading as="h3" fontSize={40} variant="section-title">
             Experience
           </Heading>
-          <Text fontSize="xl" fontWeight="700">
+          <Text fontSize={20} fontWeight="700">
             Software Engineering Intern
           </Text>
-          <Text fontSize="lg" fontWeight="600">
+          <Text fontSize={18} fontWeight="600">
             Finance Assistant Application
           </Text>
           <Paragraph>December 2020 - March 2022</Paragraph>
@@ -132,14 +71,14 @@ const Page = () => {
         </Section>
 
         <Section delay={0.1}>
-          <Heading as="h3" variant="section-title">
+          <Heading as="h3" fontSize={40} variant="section-title">
             Software Projects
           </Heading>
           <Box pb="10px">
-            <Text fontSize="xl" fontWeight="700">
+            <Text fontSize={20} fontWeight="700">
               iOS Mobile Application (Spotifind)
             </Text>
-            <Text fontSize="lg" fontWeight="600">
+            <Text fontSize={20} fontWeight="600">
               iOS app that gives you songs recommendations based on your profile
             </Text>
             <Box pl="25px">
@@ -198,7 +137,7 @@ const Page = () => {
         </Section>
 
         <Section delay={0.1}>
-          <Heading as="h3" variant="section-title">
+          <Heading as="h3" fontSize={40} variant="section-title">
             Skills
           </Heading>
           <UnorderedList>
@@ -218,7 +157,7 @@ const Page = () => {
         </Section>
 
         <Section delay={0.1}>
-          <Heading as="h3" variant="section-title">
+          <Heading as="h3" fontSize={40} variant="section-title">
             Education
           </Heading>
           <Text fontSize="xl" fontWeight="700">
@@ -243,7 +182,7 @@ const Page = () => {
         </Section>
 
         <Section delay={0.1}>
-          <Heading as="h3" variant="section-title">
+          <Heading as="h3" fontSize={40} variant="section-title">
             Awards
           </Heading>
 
@@ -280,6 +219,7 @@ const Page = () => {
             </GridItem>
           </Grid>
         </Section>
+        </Box>
       </Container>
     </Layout>
   )

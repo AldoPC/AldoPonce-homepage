@@ -1,4 +1,4 @@
-import { Container, Badge, Link, List, ListItem, SimpleGrid } from '@chakra-ui/react'
+import { Container, Badge, Link, List, ListItem, SimpleGrid , Box} from '@chakra-ui/react'
 import { ExternalLinkIcon } from '@chakra-ui/icons'
 import { Title, WorkImage, Meta } from '../../components/projects'
 import Paragraph from '../../components/paragraph'
@@ -7,7 +7,8 @@ import Layout from '../../components/layouts/article'
 const Work = () => {
   return (
     <Layout title="Spotifind">
-      <Container maxW="container.lg">
+      <Container maxW="container.xl">
+        <Box ml={["auto","auto", "auto","30%"]}>
         <Title>Spotifind <Badge>2021</Badge></Title>
         <Paragraph>
             An iOS app that uses Spotify API to recommend music depending on the users likings and taste. Includes a search engine capable of using the camera for searching information, play music and manage playlists. Project developed for Mobile Devices Development @ ITESM CCM.
@@ -32,6 +33,7 @@ const Work = () => {
             <WorkImage src="/images/projects/spotifind2.jpg" alt="Add song to playlist" />
             <WorkImage src="/images/projects/spotifind4.png" alt="Song preview" />
             </SimpleGrid>
+            </Box>
       </Container>
     </Layout>
   )

@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { Container, LinkBox, LinkOverlay } from '@chakra-ui/react'
+import { Container, LinkBox, LinkOverlay, Box } from '@chakra-ui/react'
 import Layout from '../components/layouts/article'
 import { Document, Page, pdfjs } from 'react-pdf'
 import pdf from '../pdf-worker'
@@ -21,6 +21,7 @@ export default function Resume() {
   return (
     <Layout>
       <Container>
+        <Box ml={["auto","auto", "auto","30%"]}>
         <LinkBox cursor="pointer">
           <LinkOverlay
             href="https://drive.google.com/file/d/16gZIIiuvtzYHUR5fSc9ueFH2mVCeBfjh/view"
@@ -38,6 +39,7 @@ export default function Resume() {
             </Document>
           </LinkOverlay>
         </LinkBox>
+        </Box>
       </Container>
     </Layout>
   )
