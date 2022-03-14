@@ -26,7 +26,7 @@ const Work = () => {
                 <span>Swift, Objective-C, Spotify API</span>
             </ListItem>
             </List>
-            <SimpleGrid columns={2} gap={2}>
+            <SimpleGrid columns={[1,2,4]} gap={6}>
             <WorkImage src="/images/projects/spotifind1.jpg" alt="Log in" />
             <WorkImage src="/images/projects/spotifind3.jpg" alt="Find your groove" />
             <WorkImage src="/images/projects/spotifind2.jpg" alt="Add song to playlist" />
