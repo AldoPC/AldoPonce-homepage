@@ -7,8 +7,8 @@ module.exports = {
     loader: 'akamai',
     path: ''
   },
-  basePath: '/homepage',
-  assetPrefix: '/homepage',
+  basePath: '/AldoPonce-homepage',
+  assetPrefix: '/AldoPonce-homepage',
   webpack: config => {
     // load worker files as a urls with `file-loader`
     config.module.rules.unshift({
