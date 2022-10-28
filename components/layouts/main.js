@@ -9,8 +9,7 @@ import {
   ListItem,
   Link,
   Button,
-  Image,
-  Center
+  Image
 } from '@chakra-ui/react'
 import { IoMail, IoLogoGithub, IoLogoLinkedin } from 'react-icons/io5'
 import Pepsi from '../pepsi'
