@@ -1,7 +1,17 @@
 import Head from 'next/head'
 import Navbar from '../navbar.js'
 import NoSsr from '../no-ssr.js'
-import { Box, Container, Heading, List, ListItem, Link, Button, Image, Center } from '@chakra-ui/react'
+import {
+  Box,
+  Container,
+  Heading,
+  List,
+  ListItem,
+  Link,
+  Button,
+  Image,
+  Center
+} from '@chakra-ui/react'
 import { IoMail, IoLogoGithub, IoLogoLinkedin } from 'react-icons/io5'
 import Pepsi from '../pepsi'
 
@@ -10,19 +20,30 @@ const Main = ({ children, router }) => {
     <Box as="main" pb={8}>
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+        <link
+          rel="shortcut icon"
+          href={`${process.env.NEXT_PUBLIC_FAVICON}/favicon.ico`}
+          type="image/x-icon"
+        />
         <title>Aldo Ponce - Homepage</title>
       </Head>
       <Navbar path={router.asPath} />
       <Container maxW="container.xl" pt={14}>
-      <Box display={{ md: 'flex' }} pos={['relative', 'relative', 'relative', 'fixed']} w={['100%', '50%','20%']} marginX={['auto', 'auto', '34%', 'auto']} zIndex={1} align="center">
+        <Box
+          display={{ md: 'flex' }}
+          pos={['relative', 'relative', 'relative', 'fixed']}
+          w={['100%', '50%', '20%']}
+          marginX={['auto', 'auto', '34%', 'auto']}
+          zIndex={1}
+          align="center"
+        >
           <Box flexGrow={1} alignContent="center">
-          <Image
+            <Image
               borderColor="whiteAlpha.800"
               borderWidth={2}
               borderStyle="solid"
               maxWidth="90%"
-              objectFit='cover'
+              objectFit="cover"
               display="inline-bock"
               borderRadius="full"
               src="/images/aldo.jpg"
@@ -73,10 +94,10 @@ const Main = ({ children, router }) => {
             </List>
           </Box>
         </Box>
-        <Box ml={["auto","auto", "auto", "30%"]}>
-        <NoSsr>
-          <Pepsi />
-        </NoSsr>
+        <Box ml={['auto', 'auto', 'auto', '30%']}>
+          <NoSsr>
+            <Pepsi />
+          </NoSsr>
         </Box>
         {children}
       </Container>
