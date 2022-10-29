@@ -42,7 +42,7 @@ const Page = () => {
             <Paragraph>Aug 2018 - Exp. Dec 2022</Paragraph>
             <Box pl="25px">
               <UnorderedList>
-                <ListItem>90/100 GPA</ListItem>
+                <ListItem>92/100 GPA</ListItem>
                 <ListItem>
                   <ExperienceBold>Relevant coursework:</ExperienceBold> Data
                   Structures, Operating Systems, Analysis and Design of
