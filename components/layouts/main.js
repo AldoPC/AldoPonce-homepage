@@ -1,6 +1,5 @@
 import Head from 'next/head'
 import Navbar from '../navbar.js'
-import NoSsr from '../no-ssr.js'
 import {
   Box,
   Container,
@@ -12,7 +11,6 @@ import {
   Image
 } from '@chakra-ui/react'
 import { IoMail, IoLogoGithub, IoLogoLinkedin } from 'react-icons/io5'
-import Pepsi from '../pepsi'
 
 const Main = ({ children, router }) => {
   return (
@@ -52,7 +50,7 @@ const Main = ({ children, router }) => {
             <Heading as="h2" variant="page-title">
               Aldo Ponce
             </Heading>
-            <p>8th Semester Student</p>
+            <p>9th Semester Student</p>
             <List>
               <ListItem>
                 <Link href="https://github.com/AldoPC" target="_blank">
@@ -92,11 +90,6 @@ const Main = ({ children, router }) => {
               </ListItem>
             </List>
           </Box>
-        </Box>
-        <Box ml={['auto', 'auto', 'auto', '30%']}>
-          <NoSsr>
-            <Pepsi />
-          </NoSsr>
         </Box>
         {children}
       </Container>

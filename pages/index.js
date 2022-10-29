@@ -28,41 +28,30 @@ const Page = () => {
             Hi, I&apos;m Aldo Ponce. Currently studying for a bachelor's degree
             in Computer Science and Technology at Tecnológico de Monterrey CCM.
           </Box>
+
           <Section delay={0.1}>
             <Heading as="h3" fontSize={40} variant="section-title">
-              Experience
+              Education
             </Heading>
-            <Text fontSize={20} fontWeight="700">
-              Software Engineering Intern
+            <Text fontSize="xl" fontWeight="700">
+              B.S. Computer Science and Technology
             </Text>
-            <Text fontSize={18} fontWeight="600">
-              Finance Assistant Application
+            <Text fontSize="lg" fontWeight="600">
+              Tecnológico de Monterrey
             </Text>
-            <Paragraph>December 2020 - March 2022</Paragraph>
+            <Paragraph>Aug 2018 - Exp. Dec 2022</Paragraph>
             <Box pl="25px">
               <UnorderedList>
+                <ListItem>90/100 GPA</ListItem>
                 <ListItem>
-                  <ExperienceBold>Technologies used:</ExperienceBold> Spring
-                  Tool Suite, VSCode, SQLTools, Maven, Tomcat, NPM.
-                </ListItem>
-                <ListItem>
-                  <ExperienceBold>Back-end:</ExperienceBold> Java 8, Node.js,
-                  Express.
-                </ListItem>
-                <ListItem>
-                  <ExperienceBold>Front-end:</ExperienceBold> ZK Framework,
-                  Keikai Spreadsheets, React, Java 8.
-                </ListItem>
-                <ListItem>
-                  <ExperienceBold>Database:</ExperienceBold> Oracle Database.
+                  <ExperienceBold>Relevant coursework:</ExperienceBold> Data
+                  Structures, Operating Systems, Analysis and Design of
+                  Algorithms, Programming Languages, Advanced Database Systems,
+                  Big Data, Web Applications Development, Software Quality and
+                  Testing, Software Architecture, Mobile Devices Development.
                 </ListItem>
               </UnorderedList>
             </Box>
-            <Text fontSize="md">
-              Finance tool that shows the information from a database as a
-              report on an online spreadsheet depending on the parameters
-              requested.
-            </Text>
           </Section>
 
           <Section delay={0.1}>
@@ -104,43 +93,107 @@ const Page = () => {
 
             <Box pb="10px">
               <Text fontSize="xl" fontWeight="700">
-                Flutter Application (Shuk shuk)
+                Gamer Store Webapp
               </Text>
               <Text fontSize="lg" fontWeight="600">
-                Flutter app that builds an album of images from social media and
-                phone storage
+                Web Application using MERN (Mongo, Express, React, NodeJS)
               </Text>
               <Box pl="25px">
                 <UnorderedList>
                   <ListItem>
-                    <ExperienceBold>Technologies used:</ExperienceBold> Android
-                    Studio, VSCode, Emulator AVD & Firebase.
+                    <ExperienceBold>Technologies used:</ExperienceBold> VSCode,
+                    MongoDB, Stripe, Yarn.
+                  </ListItem>
+                  <ListItem>
+                    <ExperienceBold>Back-end:</ExperienceBold> NodeJS, Express.
                   </ListItem>
                   <ListItem>
                     <ExperienceBold>Front-end:</ExperienceBold> Material UI,
-                    Flutter, Dart.
-                  </ListItem>
-                  <ListItem>
-                    <ExperienceBold>Database:</ExperienceBold> Firestore.
+                    React.
                   </ListItem>
                 </UnorderedList>
               </Box>
               <Text fontSize="md" pt="5px">
-                Developed an application capable of building an album of images
-                from social media and phone storage. Option to use social media
-                accounts for authentication.
+                Developed an e‐commerce web application capable of making
+                purchases using Stripe’s API. There’s also a admin dashboard
+                where the admin could add, delete or modify products and users.
+              </Text>
+            </Box>
+
+            <Box pb="10px">
+              <Text fontSize="xl" fontWeight="700">
+                Compiler
+              </Text>
+              <Text fontSize="lg" fontWeight="600">
+                Compiler using ANTLR4 and Python
+              </Text>
+              <Box pl="25px">
+                <UnorderedList>
+                  <ListItem>
+                    <ExperienceBold>Technologies used:</ExperienceBold> VSCode,
+                    PyTest.
+                  </ListItem>
+                  <ListItem>
+                    <ExperienceBold>Back-end:</ExperienceBold> Python, ANTRL4.
+                  </ListItem>
+                </UnorderedList>
+              </Box>
+              <Text fontSize="md" pt="5px">
+                Developed a compiler for the programming language "COOL" using
+                ANTLR4 parsing capabilities and Python to interpret the
+                instructions and create functional assembly code.
               </Text>
             </Box>
           </Section>
 
           <Section delay={0.1}>
             <Heading as="h3" fontSize={40} variant="section-title">
+              Experience
+            </Heading>
+            <Text fontSize={20} fontWeight="700">
+              Software Engineering Intern
+            </Text>
+            <Text fontSize={18} fontWeight="600">
+              Finance Assistant Application
+            </Text>
+            <Paragraph>December 2020 - March 2022</Paragraph>
+            <Box pl="25px">
+              <UnorderedList>
+                <ListItem>
+                  <ExperienceBold>Technologies used:</ExperienceBold> Spring
+                  Tool Suite, VSCode, SQLTools, Maven, Tomcat, NPM.
+                </ListItem>
+                <ListItem>
+                  <ExperienceBold>Back-end:</ExperienceBold> Java 8, Node.js,
+                  Express.
+                </ListItem>
+                <ListItem>
+                  <ExperienceBold>Front-end:</ExperienceBold> ZK Framework,
+                  Keikai Spreadsheets, React, Java 8.
+                </ListItem>
+                <ListItem>
+                  <ExperienceBold>Database:</ExperienceBold> Oracle Database.
+                </ListItem>
+              </UnorderedList>
+            </Box>
+            <Text fontSize="md">
+              Finance tool that shows the information from a database as a
+              report on an online spreadsheet depending on the parameters
+              requested.
+            </Text>
+          </Section>
+          <Section delay={0.1}>
+            <Heading as="h3" fontSize={40} variant="section-title">
               Skills
             </Heading>
             <UnorderedList>
               <ListItem>
-                <ExperienceBold>Languajes:</ExperienceBold> Java, JavaScript,
-                Python, Swift, Dart.
+                <ExperienceBold>Programming Languages:</ExperienceBold> Java,
+                JavaScript, Python, Swift, SQL.
+              </ListItem>
+              <ListItem>
+                <ExperienceBold>Languages:</ExperienceBold> Spanish (Native
+                Speaker), English (C1), German (A2).
               </ListItem>
               <ListItem>
                 <ExperienceBold>Frameworks:</ExperienceBold> React, Express, ZK
@@ -148,34 +201,9 @@ const Page = () => {
               </ListItem>
               <ListItem>
                 <ExperienceBold>Tools & Platforms:</ExperienceBold> Node.js,
-                Firebase.
+                Firebase, MongoDB.
               </ListItem>
             </UnorderedList>
-          </Section>
-
-          <Section delay={0.1}>
-            <Heading as="h3" fontSize={40} variant="section-title">
-              Education
-            </Heading>
-            <Text fontSize="xl" fontWeight="700">
-              B.S. Computer Science and Technology
-            </Text>
-            <Text fontSize="lg" fontWeight="600">
-              Tecnológico de Monterrey
-            </Text>
-            <Paragraph>Aug 2018 - Exp. Dec 2022</Paragraph>
-            <Box pl="25px">
-              <UnorderedList>
-                <ListItem>90/100 GPA</ListItem>
-                <ListItem>
-                  <ExperienceBold>Relevant coursework:</ExperienceBold> Data
-                  Structures, Operating Systems, Analysis and Design of
-                  Algorithms, Programming Languages, Advanced Database Systems,
-                  Big Data, Web Applications Development, Software Quality and
-                  Testing.
-                </ListItem>
-              </UnorderedList>
-            </Box>
           </Section>
 
           <Section delay={0.1}>
