@@ -27,7 +27,7 @@ const Logo = () => {
     <Link href="/" scroll={false}>
       <a>
         <LogoBox>
-          <Image src={PrintImg} width={20} height={20} alt="logo" />
+          {/* <Image src={PrintImg} width={20} height={20} alt="logo" /> */}
           <Text
             color={useColorModeValue('gray.800', 'whiteAlpha.900')}
             fontFamily="M PLUS Rounded 1c"

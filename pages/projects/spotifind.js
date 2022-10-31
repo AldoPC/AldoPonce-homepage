@@ -30,7 +30,7 @@ const Work = () => {
           <List ml={4} my={4}>
             <ListItem>
               <Meta>Repository</Meta>
-              <Link href="https://github.com/AldoPC/Spotifind">
+              <Link href="https://github.com/AldoPC/Spotifind" target="_blank">
                 Spotifind<ExternalLinkIcon mx="2px"></ExternalLinkIcon>
               </Link>
             </ListItem>

@@ -68,7 +68,7 @@ const Navbar = props => {
           mt={{ base: '4', md: '0' }}
         >
           <LinkItem href="/projects" path={path}>
-          Projects
+            Projects
           </LinkItem>
           <LinkItem href="/resume" path={path}>
             Resume
@@ -76,7 +76,7 @@ const Navbar = props => {
         </Stack>
 
         <Box flex={1} align="right">
-            <ThemeToggleButton/>
+          <ThemeToggleButton />
           <Box ml={2} display={{ base: 'inline-block', md: 'none' }}>
             <Menu>
               <MenuButton
@@ -92,9 +92,9 @@ const Navbar = props => {
                 <NextLink href="/projects" passHref>
                   <MenuItem as={Link}>Projects</MenuItem>
                 </NextLink>
-                  <NextLink href="/resume" passHref>
-                    <MenuItem as={Link}>Resume</MenuItem>
-                  </NextLink>
+                <NextLink href="/resume" passHref>
+                  <MenuItem as={Link}>Resume</MenuItem>
+                </NextLink>
               </MenuList>
             </Menu>
           </Box>

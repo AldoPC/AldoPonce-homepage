@@ -21,24 +21,24 @@ export default function Resume() {
   return (
     <Layout>
       <Container>
-        <Box ml={["auto","auto", "auto","30%"]}>
-        <LinkBox cursor="pointer">
-          <LinkOverlay
-            href="https://drive.google.com/file/d/16gZIIiuvtzYHUR5fSc9ueFH2mVCeBfjh/view"
-            target="_blank"
-          >
-            <Document file={file} onLoadSuccess={onDocumentLoadSuccess}>
-              {Array.from({ length: numPages }, (_, index) => (
-                <Page
-                  key={`page_${index + 1}`}
-                  pageNumber={index + 1}
-                  renderAnnotationLayer={false}
-                  renderTextLayer={false}
-                />
-              ))}
-            </Document>
-          </LinkOverlay>
-        </LinkBox>
+        <Box ml={['auto', 'auto', 'auto', '30%']}>
+          <LinkBox cursor="pointer">
+            <LinkOverlay
+              href="https://drive.google.com/file/d/1_IGAlOXBYQRBzJrn4YdoDFiAmyrtdp1u/view"
+              target="_blank"
+            >
+              <Document file={file} onLoadSuccess={onDocumentLoadSuccess}>
+                {Array.from({ length: numPages }, (_, index) => (
+                  <Page
+                    key={`page_${index + 1}`}
+                    pageNumber={index + 1}
+                    renderAnnotationLayer={false}
+                    renderTextLayer={false}
+                  />
+                ))}
+              </Document>
+            </LinkOverlay>
+          </LinkBox>
         </Box>
       </Container>
     </Layout>
