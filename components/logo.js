@@ -19,7 +19,7 @@ const LogoBox = styled.span`
   }
 `
 const Logo = () => {
-  const PrintImg = `AldoPonce-homepage/images/logo${useColorModeValue(
+  const PrintImg = `/AldoPonce-homepage/images/logo${useColorModeValue(
     '',
     '-dark'
   )}.png`
