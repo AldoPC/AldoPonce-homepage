@@ -43,7 +43,7 @@ const Main = ({ children, router }) => {
               objectFit="cover"
               display="inline-bock"
               borderRadius="full"
-              src="AldoPonce-homepage/images/aldo.png"
+              src="/AldoPonce-homepage/images/aldo.png"
               alt="Profile Picture"
               mb="15px"
             />
