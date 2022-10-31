@@ -1,7 +1,6 @@
 import { Container, Heading, SimpleGrid, Box } from '@chakra-ui/react'
 import Section from '../components/section'
 import { ProjectGridItem } from '../components/grid-item'
-import thumbSpotifind from '../public/images/projects/thumb-spotifind.png'
 import Layout from '../components/layouts/article'
 
 const Projects = () => {
@@ -17,7 +16,7 @@ const Projects = () => {
               <ProjectGridItem
                 id="spotifind"
                 title="Spotifind"
-                thumbnail={thumbSpotifind}
+                thumbnail="/images/projects/thumb-spotifind.png"
               >
                 An iOS app that uses Spotify's API to find song recommendations
                 based on your profile.

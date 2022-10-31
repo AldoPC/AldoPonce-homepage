@@ -5,7 +5,7 @@ import { Global } from '@emotion/react'
 
 export const GridItem = ({ children, href, title, thumbnail }) => (
   <Box w="100%" align="center">
-    <LinkBox crusos="pointer">
+    <LinkBox cursor="pointer">
       <Image
         src={`${thumbnail}`}
         alt={title}
@@ -29,7 +29,8 @@ export const ProjectGridItem = ({ children, id, title, thumbnail }) => (
           src={thumbnail}
           alt={title}
           className="grid-item-thumbnail"
-          placeholder="blur"
+          width="710"
+          height="400"
         />
         <LinkOverlay href={`/projects/${id}`}>
           <Text mt={2} fontSize={20}>
