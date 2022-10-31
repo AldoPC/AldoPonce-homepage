@@ -19,7 +19,7 @@ const Main = ({ children, router }) => {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link
           rel="shortcut icon"
-          href={`${process.env.NEXT_PUBLIC_FAVICON}/favicon.ico`}
+          href={`AldoPonce-homepage/favicon.ico`}
           type="image/x-icon"
         />
         <title>Aldo Ponce - Homepage</title>
@@ -43,7 +43,7 @@ const Main = ({ children, router }) => {
               objectFit="cover"
               display="inline-bock"
               borderRadius="full"
-              src="/images/aldo.jpg"
+              src="AldoPonce-homepage/images/aldo.png"
               alt="Profile Picture"
               mb="15px"
             />
