@@ -16,10 +16,25 @@ const Projects = () => {
               <ProjectGridItem
                 id="spotifind"
                 title="Spotifind"
-                thumbnail="/images/projects/thumb-spotifind.png"
+                thumbnail="/images/projects/spotifind/thumb-spotifind.png"
               >
                 An iOS app that uses Spotify's API to find song recommendations
                 based on your profile.
+              </ProjectGridItem>
+              <ProjectGridItem
+                id="gamerStore"
+                title="Gamer Store"
+                thumbnail="/images/projects/gamerStore/thumb-gamerStore.png"
+              >
+                An e-commerce web application using the MERN stack.
+              </ProjectGridItem>
+              <ProjectGridItem
+                id="cool_compiler"
+                title="COOL Compiler"
+                thumbnail="/images/projects/compiler/thumb-compiler.png"
+              >
+                A compiler for the "COOL" programming language using ANTLR4 and
+                Python.
               </ProjectGridItem>
             </Section>
           </SimpleGrid>

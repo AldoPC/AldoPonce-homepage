@@ -45,19 +45,19 @@ const Work = () => {
           </List>
           <SimpleGrid columns={[1, 2, 4]} gap={6}>
             <WorkImage
-              src="/AldoPonce-homepage/images/projects/spotifind1.jpg"
+              src="/AldoPonce-homepage/images/projects/spotifind/spotifind1.jpg"
               alt="Log in"
             />
             <WorkImage
-              src="/AldoPonce-homepage/images/projects/spotifind3.jpg"
+              src="/AldoPonce-homepage/images/projects/spotifind/spotifind3.jpg"
               alt="Find your groove"
             />
             <WorkImage
-              src="/AldoPonce-homepage/images/projects/spotifind2.jpg"
+              src="/AldoPonce-homepage/images/projects/spotifind/spotifind2.jpg"
               alt="Add song to playlist"
             />
             <WorkImage
-              src="/AldoPonce-homepage/images/projects/spotifind4.png"
+              src="/AldoPonce-homepage/images/projects/spotifind/spotifind4.png"
               alt="Song preview"
             />
           </SimpleGrid>
